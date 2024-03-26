@@ -8,7 +8,8 @@ import Analytics from './Components/Analytics'
 import NewsLetter from './Components/NewsLetter'
 import Cards from './Components/Cards'
 import Footer from './Components/Footer'
-
+import { AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
+import { ReactTyped,Typed } from "react-typed";
 
 function App() {
   const [count, setCount] = useState(0)
